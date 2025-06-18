@@ -10,11 +10,11 @@ export interface Product {
 }
 
 // Check if Firebase is properly configured
-const isFirebaseConfigured = () => {
+const isFirebaseConfigured = (): boolean => {
   return (
-    process.env.NEXT_PUBLIC_FIREBASE_API_KEY &&
+    !!process.env.NEXT_PUBLIC_FIREBASE_API_KEY &&
     process.env.NEXT_PUBLIC_FIREBASE_API_KEY !== "demo-api-key" &&
-    process.env.NEXT_PUBLIC_FIREBASE_PROJECT_ID &&
+    !!process.env.NEXT_PUBLIC_FIREBASE_PROJECT_ID &&
     process.env.NEXT_PUBLIC_FIREBASE_PROJECT_ID !== "anand-pharma-demo"
   )
 }
