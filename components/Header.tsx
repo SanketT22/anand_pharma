@@ -39,7 +39,8 @@ export default function Header() {
           {/* Logo */}
           <Link href="/" className="flex items-center gap-3">
             <div className="w-12 h-12 bg-blue-600 rounded-full flex items-center justify-center">
-              <span className="text-white font-bold text-lg">AP</span>
+                            <img src="/logo.png" alt="Anand Pharma Logo" className="h-12 w-12 object-contain" />
+
             </div>
             <div>
               <h1 className="text-2xl font-bold text-blue-600">Anand Pharma</h1>

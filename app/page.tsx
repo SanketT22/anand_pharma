@@ -26,7 +26,7 @@ export default function HomePage() {
         <div className="container mx-auto px-4 text-center">
           <div className="mb-6">
             <div className="w-24 h-24 bg-white rounded-full flex items-center justify-center mx-auto mb-4">
-              <span className="text-2xl font-bold text-blue-600">AP</span>
+              <img src="/logo.png" alt="Anand Pharma Logo" className="h-16 w-16 object-contain" />
             </div>
             <h1 className="text-4xl md:text-6xl font-bold mb-4">Anand Pharma</h1>
             <p className="text-xl md:text-2xl mb-8">Your Trusted Medical Store for Health and Wellness</p>

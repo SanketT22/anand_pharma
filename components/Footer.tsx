@@ -10,7 +10,8 @@ export default function Footer() {
           <div>
             <div className="flex items-center gap-3 mb-4">
               <div className="w-10 h-10 bg-blue-600 rounded-full flex items-center justify-center">
-                <span className="text-white font-bold">AP</span>
+                             <img src="/logo.png" alt="Anand Pharma Logo" className="h-12 w-12 object-contain" />
+
               </div>
               <div>
                 <h3 className="text-xl font-bold">Anand Pharma</h3>
